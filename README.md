@@ -147,7 +147,36 @@ Buat file baru dengan nama kontak.php
 Implementasikan konsep modularisasi pada kode program praktikum 8 tentang database, sehingga setiap halamannya memiliki template yang sama.
 
 Buat file baru dengan nama header.php
+``` php
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/stylesheet" media="screen" />
+    <title>MODULAR</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>DATA ELEKTRONIK</h1>
+        </header>
+        <nav>
+            <a href="home.php">HOME</a>
+            <a href="tambah.php">TAMBAH</a>
+        </nav>       
+ ```
 
+Membuat file baru dengan nama footer.php
+``` php
+<footer>
+            <p>&copy; 2021, Informatika, Universitas Pelita Bangsa
+        </footer>
+    </div>
+</body>
+</html>   
+```
 
 
 
